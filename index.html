@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="fa">
+  <head>
+    <meta charset="UTF-8" />
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="..." />
+    <meta name="keywords" content="..." />
+    <meta name="author" content="Din-o-Danish High School" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="..." />
+    <meta property="og:description" content="..." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://YOUR-DOMAIN.com" />
+    <meta property="og:image" content="https://YOUR-DOMAIN.com/preview.jpg" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="..." />
+    <meta name="twitter:description" content="..." />
+    <meta name="twitter:image" content="https://YOUR-DOMAIN.com/preview.jpg" />
+
+    <title>لیسه عالی دین و دانش</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <!-- Language Selection Modal -->
+  <div id="langModal" class="lang-modal hidde">
+    <div class="lang-box">
+      <h2>Choose Your Language</h2>
+
+      <div class="lang-options">
+        <button class="lang-btn" data-lang="fa">دری</button>
+        <button class="lang-btn" data-lang="ps">پشتو</button>
+        <button class="lang-btn" data-lang="en">EN</button>
+      </div>
+    </div>
+  </div>
+
+  <body>
+    <!-- NAVBAR -->
+    <header class="navbar">
+      <div class="nav-left">
+        <!-- <div class="logo" data-key="school_name"></div> -->
+         <img src="images/logo.png" alt="" width="65">
+      </div>
+
+      <button class="nav-toggle" id="navToggle">☰</button>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#home" data-key="nav_home"></a>
+        <a href="#about" data-key="nav_about"></a>
+        <a href="#academics" data-key="nav_academics"></a>
+        <a href="#admission" data-key="nav_admission"></a>
+        <a href="#gallery" data-key="nav_gallery"></a>
+        <a href="#location" data-key="nav_location"></a>
+        <a href="#contact" data-key="nav_contact"></a>
+      </nav>
+
+    </header>
+
+    <!-- HOME / HERO -->
+    <section id="home" class="section hero">
+      <div class="hero-bg"></div>
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <h1 data-key="home_title"></h1>
+        <p data-key="home_subtitle"></p>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section section-light">
+      <div class="section-inner two-col">
+        <div>
+          <h2 data-key="about_title"></h2>
+          <p data-key="about_history"></p>
+          <h3 data-key="about_mission_title"></h3>
+          <p data-key="about_mission_text"></p>
+          <h3 data-key="about_principal_title"></h3>
+          <p data-key="about_principal_text"></p>
+        </div>
+        <div class="image-card students-bg"></div>
+      </div>
+    </section>
+
+    <!-- ACADEMICS -->
+    <section id="academics" class="section section-soft">
+      <div class="section-inner">
+        <h2 data-key="acad_title"></h2>
+        <div class="cards">
+          <div class="card">
+            <h3 data-key="acad_grades_title"></h3>
+            <p data-key="acad_grades"></p>
+          </div>
+          <div class="card">
+            <h3 data-key="acad_method_title"></h3>
+            <p data-key="acad_method"></p>
+          </div>
+          <div class="card">
+            <h3 data-key="acad_activities_title"></h3>
+            <p data-key="acad_activities"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ADMISSION -->
+    <section id="admission" class="section section-light">
+      <div class="section-inner">
+        <h2 data-key="adm_title"></h2>
+        <div class="cards">
+          <div class="card">
+            <h3 data-key="adm_requirements_title"></h3>
+            <p data-key="adm_requirements"></p>
+          </div>
+          <div class="card">
+            <h3 data-key="adm_documents_title"></h3>
+            <p data-key="adm_documents"></p>
+          </div>
+          <div class="card">
+            <h3 data-key="adm_apply_title"></h3>
+            <p data-key="adm_apply"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section id="gallery" class="section section-soft">
+      <div class="section-inner">
+        <h2 data-key="gallery_title"></h2>
+        <div class="gallery-grid">
+          <div class="gallery-item gallery-item1"></div>
+          <div class="gallery-item gallery-item2"></div>
+          <div class="gallery-item gallery-item3"></div>
+          <div class="gallery-item gallery-item4"></div>
+          <div class="gallery-item gallery-item5"></div>
+          <div class="gallery-item gallery-item6"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- LOCATION -->
+    <section id="location" class="section section-light">
+      <div class="section-inner">
+        <h2 data-key="location_title"></h2>
+        <p data-key="location_address"></p>
+        <div class="map-wrapper">
+          <iframe
+            width="100%"
+            height="350"
+            style="border: 0"
+            loading="lazy"
+            allowfullscreen
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.123!2d69.1152182!3d34.4876601!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38d1693b718ba6fd%3A0x96785d423c1b0979!2z2YHYp9mG2KfZhiDYp9mE2KfZhtmHINmF2YjZhNmF2KfZhg!5e0!3m2!1sen!2sau!4v1715000000000"
+          >
+          </iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section section-soft">
+      <div class="section-inner">
+        <h2 data-key="contact_title"></h2>
+        <p><strong data-key="contact_phone_label"></strong> +93 79 911 5560</p>
+        <div class="social-icons">
+          <a href="#" class="icon facebook" data-key="contact_facebook" target="_blank"></a>
+          <a href="https://wa.me/93799115560" class="icon whatsapp" data-key="contact_whatsapp" target="_blank"></a>
+          <a href="https://t.me/ddhinfo" class="icon telegram" data-key="contact_telegram" target="_blank"></a>
+          <a href="https://www.instagram.com/ddhedu/" class="icon instagram" data-key="contact_instagram" target="_blank"></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <p data-key="footer_text"></p>
+    </footer>
+  </body>
+</html>
